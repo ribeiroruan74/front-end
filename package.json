@@ -1,0 +1,40 @@
+{
+  "name": "estoque-rn",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^7.2.0",
+    "@react-navigation/native": "^7.0.14",
+    "axios": "^1.7.9",
+    "expo": "~52.0.19",
+    "expo-image-picker": "^16.0.3",
+    "expo-status-bar": "~2.0.0",
+    "expo-vector-icons": "^10.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.5",
+    "react-native-dotenv": "^3.4.11",
+    "react-native-gesture-handler": "^2.21.2",
+    "react-native-image-picker": "^7.2.3",
+    "react-native-reanimated": "^3.16.5",
+    "react-native-safe-area-context": "^5.0.0",
+    "react-native-screens": "^4.3.0",
+    "react-native-vector-icons": "^10.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "@types/react": "~18.3.12",
+    "@types/react-native-dotenv": "^0.2.2",
+    "metro-react-native-babel-preset": "^0.77.0",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}
